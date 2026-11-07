@@ -1,0 +1,43 @@
+# Gradle / build output
+*.iml
+.gradle/
+build/
+captures/
+.cxx/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.hprof
+.navigation/
+output.json
+
+# Signing & secrets — never commit these
+*.jks
+*.keystore
+google-services.json
+secrets.properties
+keystore.properties
+
+# Build artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+proguard/
+
+# Native
+obj/
+.externalNativeBuild/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
